@@ -1,0 +1,83 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: 50px auto auto auto auto 50px;
+    width: 50%;
+    gap: 10px 20px;
+    height: 600px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.grid1{
+    background-color: rgb(127, 127, 127);
+    grid-column: 1/13;
+    }
+.grid2{
+    background-color: blue;
+    grid-column: 1/9;
+
+}
+.grid3{
+    background-color: skyblue;
+    grid-column: 9/13;
+
+}
+
+.grid4 {
+
+    grid-column: 1/5;
+    background-color: rgb(243, 243, 14);
+}
+.grid5{
+
+    grid-column: 5/9;
+    background-color: rgb(243, 243, 14);
+}
+
+.grid6{
+
+    grid-column: 9/13;
+    background-color: rgb(243, 243, 14);
+}
+
+.grid7{
+    grid-column: 1/5;
+    background-color: skyblue;
+}
+.grid8{
+    background-color: blue;
+    grid-column: 5/13;
+}
+
+.grid9{
+    grid-column: 1/4;
+    background-color: orange;
+}
+.grid10{
+    grid-column: 4/7;
+    background-color: orange;
+}
+.grid11{
+    grid-column: 7/10;
+    background-color: orange;
+}
+.grid12{
+    grid-column: 10/13;
+    background-color: orange;
+}
+
+
+.grid13{
+    background-color: rgb(127, 127, 127);
+    grid-column: 1/13;
+}
+
+@media screen and (max-width: 480px) {
+    .grid-container {
+        background-color: white;
+    }
+  }
+
+
