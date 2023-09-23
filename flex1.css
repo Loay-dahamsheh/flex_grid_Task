@@ -1,0 +1,48 @@
+.flex-container{
+    background-color:blanchedalmond;
+    width: 100%;
+    height: 699px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    width: 100%;    
+    text-align: center;
+    font-size: 30px;
+    height: 120px;
+    
+}
+
+.md-container{
+    background-color: white;
+    width: 40%;
+    border-radius: 5%;
+    height: 550px;
+    position: absolute;
+}
+
+hr{
+    color: black;
+    width: 90%;
+}
+
+img{
+    width: 90px;
+    height: 90px; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+    
+}
+
+.location{
+    font-size: small;
+    color: gray;
+}
+
